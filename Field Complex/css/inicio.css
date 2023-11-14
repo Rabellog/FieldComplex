@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#buttons {
+display: flex;
+justify-content: space-between;
+margin-left: 554px;
+margin-right: 157px;
+margin-top: 29px;
+margin-bottom: 18px;
+margin-top: 0;
+}
+
+#navbar {
+    background-color: #8868F1;
+}
+
+.btns2{
+    display: flex;
+    gap: 21px;
+    margin-top: 28px;
+}
+
+.btns1{
+    display: flex;
+    gap:0px;
+    margin-top: 28px    ;
+}
