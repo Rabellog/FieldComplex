@@ -3,54 +3,65 @@
     padding: 0;
 }
 
-#buttons {
-display: flex;
-justify-content: space-between;
-margin-left: 554px;
-margin-right: 157px;
-margin-top: 29px;
-margin-bottom: 18px;
-margin-top: 0;
-}
-nav{
-    height: 99px;
-}
-#navbar {
-    background-color: #8868F1;
-    width: 100%;
-    height: 99px;
+#navbar{
     display: flex;
-    align-items: center;
-    justify-content: center ;
-}
-
-.btns2{
-    /*display: flex;
-    gap: 21px;
-    margin-top: 28px;*/
-    display: flex;
-    width: 40%;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: #8868F0;
+    height: 99px;
 }
 
 .btns1{
-   /* display: flex;
-    gap:0px;
-    margin-top: 28px;*/
+    display: flex;
+    width: 40%;
+    height: 99px;
+    justify-content: center;
+    padding: 0 143px 0 0;
+}
+
+.btns1 button{
+    background-color: #8868F0;
+    border-style: none;
+    color: #FFF;
+}
+
+.btns1 button:hover{
+    background-color: #7654e4;
+    border-style: none;
+    color: #e9e6e6;
+}
+
+
+.btns2{
     display: flex;
     width: 60%;
-    justify-content: center;
-    padding: 0 245px 0 0;
-    
+    gap: 21px;
+    margin-right: 150px;
 }
-.buttons{
+
+.entrar{
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cadastrar{
+    border-color: #FFF;
+    background-color: #8868F0;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#buttons{
     display: flex;
-    background-color: #8868F1;
-    border: none;
-    color: white;
+    justify-content: space-between;
+    margin-top: 29px;
+    margin-left: 554px;
+    margin-right: 157px;
+    margin-bottom: 18px;
 }
-button{
-    margin: 0px 10px;
+
+#buttons button{
     width: 111px;
     height: 50px;
 }
+
